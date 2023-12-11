@@ -4,7 +4,6 @@ import java.util.Random;
 public class Rat {
         public Rat() throws RatException {
             Eyes eyes = new Eyes();
-            Nose  nose = new Nose();
             throw new RatException("Крыса в комнате");
         }
 
@@ -21,9 +20,5 @@ public class Rat {
                 System.out.println("Мышь смотрит на незнайку " +color.getWord()+ " глазами");
             }
         }
-        private  class Nose{
-            private Nose(){
-                System.out.println("Мышь шевелит носом");
-            }
-        }
+
 }
